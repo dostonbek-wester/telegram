@@ -70,7 +70,7 @@ function Login() {
         .then((res) => {
           console.log(res.data);
           localStorage.setItem("user",JSON.stringify(res.data))
-          navigate("/home");
+          navigate("/");
         });
     }
   }

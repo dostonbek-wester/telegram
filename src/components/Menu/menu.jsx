@@ -86,8 +86,8 @@ return (
           >
             <div className="menu-container">
               <div className="first-box">
-                <img src={ME.avatar} alt="" />
-                <h4>{ME.name}</h4>
+                <img src={ME?.avatar} alt="" />
+                <h4>{ME?.name}</h4>
               </div>
               <hr />
               <div className="second-box">
