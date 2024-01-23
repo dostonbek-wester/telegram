@@ -1,0 +1,111 @@
+.menu-container {
+    width: 280px;
+    height: 100% ;
+    background-color: #17212B;
+} 
+
+hr {
+    width: 100%;
+    border: 0.5px solid rgb(70, 70, 70);
+}
+
+.first-box {
+    width: 100%;
+    padding: 20px;
+}
+
+.first-box img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover !important;
+}
+
+.first-box h4 {
+    font-size: 18px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.second-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: px;
+    flex-direction: column;
+}
+
+.second-box .one {
+    display: flex;
+    gap: 17px;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+}
+
+.second-box .one:hover {
+    background-color: grey;
+}
+
+.second-box .one img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.second-box .one h5 {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.second-box .one .add-btn {
+    width: 100%;
+    height: auto;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 12px !important; 
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+}
+
+.second-box .one .add-btn button {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(48, 134, 247);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.third-box{
+    width: 100%;
+    height: auto;
+}
+.third-box .two{
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    padding: 12px;
+    transition: 0.2s;
+}
+.third-box .two:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.third-box .two h5{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}

@@ -1,0 +1,156 @@
+.chat-container {
+  width: calc(100% - 700px);
+  height: 100%;
+  background-color: #0e1621;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.chats-wrapper {
+  width: 100%;
+  height: calc(100% - 110px);
+  /* display: flex;
+  justify-content: flex-end;
+  flex-direction: column; */
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.chat-row {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.chats-wrapper::-webkit-scrollbar {
+  width: 0.1em;
+}
+
+.chats-wrapper::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.chats-wrapper::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  border-radius: 10px;
+}
+
+.is_mine {
+  justify-content: flex-end;
+  width: auto;
+  overflow-wrap: break-word;
+  width: 100%;
+}
+
+.is_mine .chat-box {
+  background-color: #2b5278;
+  border-radius: 100px 100px 0px 100px;
+}
+.is_not_mine{
+    width: 100%;
+}
+.chat-row img{
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  
+}
+.chat-row{
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+}
+
+.is_not_mine {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.is_not_mine .chat-box {
+  background-color: #182533;
+  border-radius: 100px 100px 100px 0px;
+}
+
+.chat-box {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  overflow-wrap: break-word;
+  max-width: 60%;
+  margin-top: 5px;
+}
+.chat-box p{
+  width: 100%;
+  height: auto;
+}
+
+
+.navbar {
+  width: 100%;
+  height: 55px;
+  background-color: #17212b;
+  padding: 10px;
+  display: flex;
+}
+
+.spsh {
+  color: white;
+  font-weight: 100;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.peoples {
+  color: #6a7781;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.bottom-nav {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.chat-input {
+  width: 100%;
+  height: 55px;
+  background-color: #17212b;
+  color: white;
+  padding: 10px;
+  font-size: 19px;
+  outline: none;
+  border: none;
+}
+
+.bottom-btn {
+  width: 50px;
+  position: absolute;
+  right: 0;
+  background-color: #17212b;
+  color: #5288c1;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-text-icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-icons {
+  color: #6a7781;
+  display: flex;
+  gap: 10px;
+}
+
+
+.chat-box-avatar{
+  width: 35px;
+  height: 35px;
+}
