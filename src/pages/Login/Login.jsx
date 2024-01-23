@@ -45,7 +45,7 @@ function Login() {
       });
 
       if (finded) {
-        navigate("/home");
+        navigate("/");
         localStorage.setItem("user",JSON.stringify(finded))
       } else {
         setsh(true);
